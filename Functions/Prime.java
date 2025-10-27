@@ -1,3 +1,5 @@
+package Functions;
+
 import java.util.Scanner;
 
 public class Prime{
@@ -16,5 +18,6 @@ public class Prime{
         else{
             System.out.println(n + " is Not Prime");
         }
+        sc.close();
     }
 }
