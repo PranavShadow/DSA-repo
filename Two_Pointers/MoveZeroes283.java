@@ -21,7 +21,6 @@ public class MoveZeroes283 {
         MoveZeroes283 obj = new MoveZeroes283();
         obj.moveZeroes(nums);
 
-        // print result
         for (int n : nums) {
             System.out.print(n + " ");
         }
